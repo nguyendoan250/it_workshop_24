@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEFDFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #DEFDFF;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+header .nav-menu img {
+    width: 24px;
+    height: 24px;
+}
+
+header .search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+header .nav-menu, header .search-icon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.AlbumTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+i {
+    font-size: 30px; 
+}
+
+i:hover {
+    transform: scale(1.2);
+    color: rgb(225, 170, 41); 
+}
+
+.AlbumTitle h2 {
+    font-size: 24px;
+    color: #333;
+    flex-grow: 1;
+    margin: 0 10px; 
+}
+
+.Mode{
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.Mode i{
+    font-size: 30px; 
+    padding: 10px;
+    border-bottom: 3px solid #462a93;
+    margin: 0 auto;
+}
+
+.Button{
+    display: flex;
+    border: 1px solid #0e0101;
+    border-radius: 50px;
+    background-color: rgb(141, 239, 239);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 150px;
+}
+.Button i{
+    font-size:x-large;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Button h3{
+    margin-left: 10px;
+}
+
+.Picture{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100px; 
+    height: auto; 
+    margin: 5px; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+}
+
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    overflow: auto; 
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%; 
+    margin: auto;
+}
+
+.modal img {
+    width: 100%; 
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Back{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 40px;
+    
+}
+p {
+    text-align: left;
+    margin-left: 10px;
+    height: 5px;
+}

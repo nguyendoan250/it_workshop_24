@@ -1,0 +1,232 @@
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #D7FEFF;
+}
+
+/* header */
+
+button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+
+button>svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+button:hover>svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+}
+
+button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+}
+
+i {
+    font-size: 30px;
+}
+
+/* end header */
+
+
+/* main */
+.calendar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.month {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.month h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #ff5a5f;
+}
+
+.days,
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.days div {
+    font-weight: bold;
+    color: #555;
+}
+
+.dates div {
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.dates div:hover {
+    background-color: #ff5a5f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.empty {
+    visibility: hidden;
+}
+
+.carousel-inner img {
+    max-width: 65%;
+    max-height: 700px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+.birth {
+    background: red;
+    color: white;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .header-flex {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    button {
+        width: 90px;
+        height: 2.5em;
+        font-size: 14px;
+    }
+
+    .input-container {
+        max-width: 100%;
+    }
+
+    .button-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .calendar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .month {
+        width: 90%;
+    }
+
+    .carousel-inner img {
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        width: 80px;
+        height: 2em;
+        font-size: 12px;
+    }
+
+    .input {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .calendar {
+        gap: 10px;
+    }
+
+    .month {
+        padding: 10px 5px;
+    }
+
+    .button-container {
+        gap: 5px;
+    }
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+/* end-main*/

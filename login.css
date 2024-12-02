@@ -1,0 +1,83 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #75b0ba;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+.form-container {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgba(100, 252, 217, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+}
+
+.back-button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

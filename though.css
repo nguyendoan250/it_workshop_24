@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEFDFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #DEFDFF;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+header .nav-menu img {
+    width: 24px;
+    height: 24px;
+}
+
+header .search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+header .nav-menu, header .search-icon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+main {
+    padding: 0;
+}
+
+.post {
+    background-color: #DEFDFF;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-content {
+    padding: 0;
+    text-align: center;
+}
+
+.post-content .post-image {
+    width: 100%;
+    height: auto;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.user-info h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.user-info p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.post-settings {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-actions .left-actions span, .post-actions .right-actions span {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post-actions .left-actions img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post-actions .right-actions img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.post-comments {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+.post-comments p {
+    margin: 5px 0;
+}
+
+post img {
+    width: 100%;
+    height: auto;
+}
+
+post-info {
+    padding: 10px;
+}
+
+footer {
+    background-color: #DEFDFF;
+    border-top: 1px solid #dbdbdb;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}

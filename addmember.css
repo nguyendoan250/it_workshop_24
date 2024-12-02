@@ -1,0 +1,91 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.member-list {
+    width: 90%;
+    max-width: 350px; 
+    background-color: #ebeaea;
+    border: 1px solid black;
+    padding: 20px; 
+    margin: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.member-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0; 
+    border-bottom: 1px solid #090909;
+}
+.member-item:last-child {
+    border-bottom: none;
+}
+.member-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.member-name {
+    flex-grow: 1;
+    font-size: 18px; 
+}
+.arrow-symbol {
+    font-size: 20px;
+    color: #888;
+}
+.add-member {
+    width: 90%; 
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; 
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.add-member:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+.plus-sign {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.add-member-text {
+    font-size: 16px;
+}
+.next-page {
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 180px; /* Maintain max width */
+    display: block;
+    height: 50px; /* Increased height */
+    margin: 20px auto;
+    background-color: #6ab2ff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.next-page:hover {
+    background-color: #007bff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}

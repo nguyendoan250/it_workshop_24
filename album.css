@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEFDFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #DEFDFF;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+header .nav-menu img {
+    width: 24px;
+    height: 24px;
+}
+
+header .search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+header .nav-menu, header .search-icon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px; 
+}
+
+i {
+    font-size: 30px; 
+}
+
+i:hover {
+    transform: scale(1.2); 
+    color: rgb(225, 170, 41);
+}
+
+.AlbumTitle h2 {
+    font-size: 24px;
+    color: #333;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.Button {
+    display: flex;
+    border: 1px solid #0e0101;
+    border-radius: 50px;
+    background-color: rgb(141, 239, 239);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 30px;
+    margin: 0 25px;
+}
+
+.Button i {
+    font-size: x-large;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Button h3 {
+    margin-left: 10px;
+}
+
+.eventPhoto {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin: 20px; 
+}
+
+.eventPhoto img {
+    width: 130px; 
+    height: 130px;
+    margin-right: 10px; 
+    border: 1px solid #0e0101; 
+    border-radius: 20px;
+    margin-top: 10px;
+}
+p {
+    text-align: left;
+    margin-left: 10px;
+    height: 5px;
+}

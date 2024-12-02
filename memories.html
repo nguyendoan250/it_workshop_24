@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMemories</title>
+    <link rel="stylesheet" href="memories.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <style>
+        
+    </style>
+</head>
+<body class = "container">
+    <header>
+        <div class="container">
+            <div class="nav-menu">
+                <img src="./picture/home.png" alt="Navigator" onclick="window.location.href='./mainpage.html'">
+            </div>
+            <h1>Memories</h1>
+            <div class="search-icon">
+                <img src="./picture/search.png" alt="Search">
+            </div>
+        </div>
+    </header>
+
+    <div class="Mode">
+        <i class="fi fi-br-time-past"></i>
+        <i class="fi fi-rr-calendar-check"></i>
+        <i class="fi fi-rs-earth-americas"></i>
+    </div>
+
+    
+    <div class="Button">
+        <h3>Photo</h3>
+        <i class="fi fi-rr-angle-small-down"></i>
+    </div>
+
+    <!--  -->
+
+    <div class="Picture">
+        <img class="img" src="/picture/462647458_1232238201215642_9212408621794601037_n.jpg" alt="Image">
+        <img class="img" src="/picture/465268574_1778083013016755_1520413239354182530_n.jpg" alt="Image">
+        <img class="img" src="/picture/462563178_1094076882319773_6452313989665031825_n.jpg" alt="Image">
+    </div>
+    <div class="Picture">
+        <img class="img" src="/picture/album/HUE (15 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (21 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (27 of 27).jpg" alt="Image">
+    </div>
+    <div class="Picture">
+        <img class="img" src="/picture/album/HUE (1 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (14 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (19 of 27).jpg" alt="Image">
+    </div>
+    <div class="Picture">
+        <img class="img" src="/picture/album/HUE (18 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (22 of 27).jpg" alt="Image">
+        <img class="img" src="/picture/album/HUE (23 of 27).jpg" alt="Image">
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="img01" src="" alt="Image in Modal" />
+        </div>
+    </div>
+   
+    <!--  -->
+
+    <script>
+        var imgs = document.querySelectorAll('.img');
+        var modal = document.getElementById('myModal');
+        var modalImg = document.getElementById('img01');
+        var span = document.getElementsByClassName("close")[0];
+
+        imgs.forEach(function(img) {
+            img.onclick = function() {
+                modal.style.display = "flex"; 
+                modalImg.src = this.src; 
+            }
+        });
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
