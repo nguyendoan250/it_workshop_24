@@ -46,3 +46,7 @@ Hướng dẫn sử dụng chương trình Family Caring (phiên bản demo)
 5. Lưu ý:
     Một số tính năng có thể chưa hoàn chỉnh hoặc chỉ hiển thị giao diện cơ bản do hạn chế về thời gian và kinh nghiệm của nhóm.
     Nếu gặp khó khăn, vui lòng kiểm tra lại tệp đã tải đầy đủ hay chưa.
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+Ngôn ngữ sử dụng: HTML, CSS, Javascript
