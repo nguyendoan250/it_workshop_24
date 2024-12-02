@@ -33,16 +33,16 @@ Hướng dẫn sử dụng chương trình Family Caring (phiên bản demo)
 
 2. Mở chương trình:
     Tải toàn bộ các tệp của chương trình (bao gồm file HTML, CSS, và các tệp liên quan).
-    Tìm tệp title.html trong thư mục của chương trình. Đây là file chính để khởi chạy demo.                                                         (*****)
+    Tìm tệp index.html trong thư mục của chương trình. Đây là file chính để khởi chạy demo.                                                         (*****)
 
 3. Chạy chương trình:
-    Nhấp đúp chuột vào file title.html hoặc nhấp chuột phải và chọn "Open with" → Chọn trình duyệt web của bạn.
+    Nhấp đúp chuột vào file index.html hoặc nhấp chuột phải và chọn "Open with" → Chọn trình duyệt web của bạn.
     Trình duyệt sẽ mở và hiển thị giao diện của ứng dụng demo.
 
 4. Trải nghiệm chức năng:
     Sử dụng giao diện demo để khám phá các tính năng mà nhóm đã xây dựng.
     Do đây là một bản demo tĩnh, các chức năng hiện tại chỉ mang tính minh họa giao diện và chưa có sự tương tác động.
 
-5.Lưu ý:
+5. Lưu ý:
     Một số tính năng có thể chưa hoàn chỉnh hoặc chỉ hiển thị giao diện cơ bản do hạn chế về thời gian và kinh nghiệm của nhóm.
     Nếu gặp khó khăn, vui lòng kiểm tra lại tệp đã tải đầy đủ hay chưa.
